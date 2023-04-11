@@ -1,0 +1,24 @@
+/*=============== APP ===============*/
+.app{
+    &__container{
+        gap: 2.5rem;
+    }
+    &__data{
+        text-align: center;
+    }
+    &__description{
+        margin-bottom: var(--mb-1-5);
+        color: var(--title-color);
+    }
+    &__buttons{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        gap: .5rem
+    }
+
+    .app__img {
+        width: 189px;
+        height: 393px;
+    }
+}
